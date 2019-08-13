@@ -24,6 +24,10 @@ public class TpEveris {
         System.out.println("La resta es: " + resta.operacion(2, 3));
         System.out.println("La multiplicaciòn es: " + multi.operacion(2, 3));
         System.out.println("La division es: " + div.operacion(2, 3));
+        
+        
+        Potencia pot = new Potencia();
+        Raiz raiz = new Raiz();
     }
     
 }
