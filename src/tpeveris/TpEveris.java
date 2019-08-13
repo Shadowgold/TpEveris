@@ -16,6 +16,14 @@ public class TpEveris {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Suma suma = new Suma();
+        Resta resta = new Resta();
+        Multiplicacion multi = new Multiplicacion();
+        Division div = new Division();
+        System.out.println("La suma es: " + suma.operacion(2, 3));
+        System.out.println("La resta es: " + resta.operacion(2, 3));
+        System.out.println("La multiplicaciòn es: " + multi.operacion(2, 3));
+        System.out.println("La division es: " + div.operacion(2, 3));
     }
     
 }
